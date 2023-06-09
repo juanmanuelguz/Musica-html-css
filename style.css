@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+}
+
+body {
+    background-color: rgba(27, 25, 25, 0.897);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+#boton {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#contenedordesplegable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #121212;
+    width: 300px;
+    height: 800px;
+    display: none;
+    padding-top: 40px;
+    border-radius: 8px;
+    box-shadow:  2px 4px 2px rgb(0, 0, 0);
+    transition: opacity 0.3s ease;
+
+}
+
+ul {
+    padding: 10px;
+    margin: 0;
+
+}
+
+li {
+    list-style: none;
+    padding: 15px;
+    color: rgb(129, 129, 129);
+}
+
+li:hover {
+    color: rgb(226, 235, 243);
+    background-color: rgba(116, 116, 116, 0.897);
+    box-shadow: 0px 2px 1px rgba(0, 3, 1, 0.957);
+    cursor: pointer;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer ul {
+    color: blue;
+    font-size: 70px;
+    cursor: pointer;
+}
+
+#contenedordesplegable ul li img {
+    margin-right: 10px;
+    border-radius: 5px;
+
+}
